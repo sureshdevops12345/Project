@@ -1,0 +1,19 @@
+gsiBuild{
+    name = ""
+    type = ""
+    svnBranch = ""
+    release = ""
+    repository = ""
+    repository_url = ""
+    java = 7
+    disableEmail = false
+}
+
+name: Name of the component
+type: maven/ant/node
+svnBranch:
+release:
+repository:
+repository_url
+java: java version (default is 7. 8 is also supported)
+disableEmail:
