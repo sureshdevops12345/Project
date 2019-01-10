@@ -1,0 +1,7 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+[Environment]::SetEnvironmentVariable("M2_HOME",$null,"User")
+[Environment]::SetEnvironmentVariable("MAVEN_HOME",$null,"User")
+[Environment]::SetEnvironmentVariable("PATH",$null,"User")
+[Environment]::GetEnvironmentVariable("M2_HOME","User")
+[Environment]::GetEnvironmentVariable("MAVEN_HOME","User")
+[Environment]::GetEnvironmentVariable("PATH","User")
