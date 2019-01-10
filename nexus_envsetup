@@ -1,0 +1,4 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+[Environment]::SetEnvironmentVariable("M2_HOME", "D:\apache-maven-3.6.0", "User");
+[Environment]::SetEnvironmentVariable("MAVEN_HOME", "D:\apache-maven-3.6.0", "User");
+[Environment]::SetEnvironmentVariable("PATH", "D:\apache-maven-3.6.0\bin", "User");
